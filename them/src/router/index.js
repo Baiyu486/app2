@@ -23,6 +23,10 @@ const routes = [{
   name:"Shop",
   component:()=>import("@/views/Shop/index.vue")
 },{
+  path:"/detail/:id",
+  name:"Detail",
+  component:()=>import("@/views/Detail/index.vue")
+},{
   path:"/my",
   name:"My",
   component:()=>import("@/views/My/index.vue")

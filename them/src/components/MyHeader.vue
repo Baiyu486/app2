@@ -17,5 +17,7 @@ export default {}
     padding: 0px 20px;
     text-align: center;
     line-height: 60px;
+    color: #fff;
+    font-weight: bold;
 }
 </style>
