@@ -1,6 +1,7 @@
 <template>
 <div>
     我的
+    <MyFooter />
 </div>
 </template>
 

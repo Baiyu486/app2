@@ -1,6 +1,7 @@
 <template>
 <div>
     发现
+    <MyFooter />
 </div>
 </template>
 

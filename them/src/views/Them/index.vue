@@ -1,6 +1,7 @@
 <template>
 <div>
     分类
+    <MyFooter />
 </div>
 </template>
 

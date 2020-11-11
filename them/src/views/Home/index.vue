@@ -1,6 +1,7 @@
 <template>
 <div>
     首页
+    <MyFooter />
 </div>
 </template>
 

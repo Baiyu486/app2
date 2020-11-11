@@ -23,4 +23,9 @@ body {
     height: 100%;
     overflow: hidden;
 }
+
+.router-link-exact-active,
+.router-link-active {
+    color: orangered;
+}
 </style>

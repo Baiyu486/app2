@@ -9,23 +9,23 @@ const routes = [{
 },{
   path:"/home",
   name:"Home",
-  component:()=>import("../views/Home/index.vue")
+  component:()=>import("@/views/Home/index.vue")
 },{
   path:"/them",
   name:"Them",
-  component:()=>import("../views/Them/index.vue")
+  component:()=>import("@/views/Them/index.vue")
 },{
   path:"/search",
   name:"Search",
-  component:()=>import("../views/Search/index.vue")
+  component:()=>import("@/views/Search/index.vue")
 },{
   path:"/shop",
   name:"Shop",
-  component:()=>import("../views/Shop/index.vue")
+  component:()=>import("@/views/Shop/index.vue")
 },{
   path:"/my",
   name:"My",
-  component:()=>import("../views/My/index.vue")
+  component:()=>import("@/views/My/index.vue")
 }]
 
 const router = new VueRouter({

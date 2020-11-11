@@ -8,7 +8,7 @@
 export default {
     data() {
         return {
-            link: [{
+            links: [{
                 path: "/home",
                 name: "首页"
             }, {
@@ -29,6 +29,13 @@ export default {
 }
 </script>
 
-<style>
-
-</style>>
+<style lang="scss" scoped>
+.footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+}
+</style>
